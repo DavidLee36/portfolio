@@ -1,0 +1,50 @@
+:root {
+    font-family: Calibri, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #013b38;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: rgb(186, 239, 255);
+    width: fit-content;
+    display: inline-block;
+    line-height: 1;
+    margin-left: -3px; /* Don't ask me why I had to do this */
+    text-wrap: nowrap;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 0;
+    color: rgb(156, 201, 214);
+    width: fit-content;
+    line-height: 1;
+    text-wrap: nowrap;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+a {
+    color: rgb(156, 201, 214);;
+}

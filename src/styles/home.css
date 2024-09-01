@@ -1,0 +1,108 @@
+/* Set the container to fill the viewport */
+.hex-container {
+    background: #0e1b1f;
+    width: 100%; /* Full width of the viewport */
+    min-height: 100vh;
+    height: 100%;
+    position: relative; /* Relative positioning for absolute children */
+    overflow: hidden; /* This fixes issue of mouse adding to bottom of screen */
+}
+
+.hex-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('/assets/svg/grid.svg') repeat;
+    width: 100%;
+    min-height: 100%;
+    background-size: 500px;
+    z-index: 1;
+}
+
+.hex-light {
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    filter: blur(50px);
+    background: linear-gradient(90deg, rgba(2, 177, 154, 0.5) 0%, rgba(2, 157, 177, 0.5) 100%);
+    z-index: 0; /* Ensure it is above other elements */
+    pointer-events: none; /* Prevent the light from capturing mouse events */
+    border-radius: 50%;
+}
+
+.content-container {
+    z-index: 2;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container {
+    z-index: 2; /* Higher z-index to ensure it appears over the hex grid */
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    align-self: center;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    padding-inline: 1rem;
+}
+
+.greeting-text {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.greeting a {
+    color: rgb(156, 201, 214);
+}
+
+.links {
+    margin-top: 10px;
+    display: flex;
+    width: fit-content;
+    gap: 1.5rem;
+    align-items:center;
+}
+
+.logo {
+    color: rgb(156, 201, 214);
+    transition: ease all 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    color: rgb(93, 209, 241);
+}
+
+.profile-pic {
+    object-fit: cover;
+    width: 350px;
+    max-width: 50%;
+    height:fit-content;
+    border-radius: 25px;
+    box-shadow: 7px 7px 15px rgba(2, 157, 177, 0.5);
+}
+
+.footer {
+    z-index: 2;
+    margin-top: auto;
+    align-self: center;
+}
+
+@media (max-width: 678px) {
+    .greeting-text {
+        width: 85%;
+    }
+}
