@@ -1,11 +1,11 @@
 import { links } from '../assets/links'; //Social media icons/links
 
 import profilePic from '../../public/assets/portfolioPFP.jpg';
-import '../styles/home.css';
+import '../styles/main.css';
 
-export const Home = () => {
+export const Header = () => {
     return (
-        <div className='home-container'>
+        <div className='header-container'>
             <div className="greeting">
                 <div className="greeting-text">
                     <h1>David Lee</h1>

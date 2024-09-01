@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../styles/home.css";
+import "../styles/main.css";
 
 export const HexGrid: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
     const [lightPosition, setLightPosition] = useState({ x: 50, y: 50 });
