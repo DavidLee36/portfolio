@@ -92,6 +92,45 @@
     align-self: center;
 }
 
+
+/* !!!! PROJECTS STYLES !!!! */
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 10vw;
+    margin-inline: auto;
+    width: 100%;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+.project {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-main-content {
+    border: 2px solid green;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.project-text {
+    max-width: 45%;
+}
+
+.project-img {
+    width: 50%;
+    height: auto;
+}
+
+.project-technologies img {
+    width: 40px;
+}
+
 @media (max-width: 678px) {
     .greeting-text {
         width: 85%;

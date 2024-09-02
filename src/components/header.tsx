@@ -1,6 +1,6 @@
 import { links } from '../assets/links'; //Social media icons/links
 
-import profilePic from '../../public/assets/portfolioPFP.jpg';
+import profilePic from '/assets/images/portfolioPFP.jpg';
 import '../styles/main.css';
 
 export const Header = () => {
