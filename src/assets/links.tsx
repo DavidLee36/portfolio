@@ -13,7 +13,7 @@ export const links = () => {
             <a href="https://www.linkedin.com/in/david-lee-499a4a237/" target="_blank">
                 <FontAwesomeIcon icon={faLinkedin} size='2x' className='logo' />
             </a>
-            <a href="stinkybutt" target="_blank">
+            <a href="mailto:david303lee@gmail.com" target="_blank">
                 <FontAwesomeIcon icon={faEnvelope} size='2x' className='logo' />
             </a>
         </div>

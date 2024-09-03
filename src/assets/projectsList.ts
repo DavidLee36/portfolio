@@ -1,5 +1,20 @@
 //All the info used to display projects
 
+/* PROJECT TEMPLATE
+    {
+        title: '',
+        img: {
+            src: '',
+            alt: ''
+        },
+        github: '',
+        link: '',
+        desc: '',
+        techList: ['']
+    }
+*/
+
+
 const projectList = [
     {
         title: 'Chestnut Preschool Website',
@@ -46,7 +61,7 @@ const projectList = [
         techList: ['react', 'javascript', 'node', 'arduino', 'raspberry']
     },
     {
-        title: 'Valorant Airsoft Gun Project',
+        title: 'Valorant Airsoft Gun',
         img: {
             src: '/assets/images/airsoft.jpg',
             alt: 'airsoftGun'
