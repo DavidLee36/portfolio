@@ -9,6 +9,7 @@ import java from '/assets/svg/technologies/java.svg';
 import javascript from '/assets/svg/technologies/javascript.svg';
 import netlify from '/assets/svg/technologies/netlify.svg';
 import node from '/assets/svg/technologies/node.svg';
+import php from '/assets/svg/technologies/php.svg';
 import python from '/assets/svg/technologies/python.svg';
 import raspberry from '/assets/svg/technologies/raspberry.svg';
 import react from '/assets/svg/technologies/react.svg';
@@ -26,6 +27,7 @@ export const Technologies = () => {
         {src: javascript, alt: 'JavaScript'},
         {src: netlify, alt: 'Netlify'},
         {src: node, alt: 'Node JS'},
+        {src: php, alt: 'PHP'},
         {src: python, alt: 'Python'},
         {src: raspberry, alt: 'Raspberry Pi'},
         {src: react, alt: 'React'},
