@@ -7,6 +7,7 @@ import github from '/assets/svg/technologies/github.svg';
 import html from '/assets/svg/technologies/html.svg';
 import java from '/assets/svg/technologies/java.svg';
 import javascript from '/assets/svg/technologies/javascript.svg';
+import mysql from '/assets/svg/technologies/mysql-official.svg';
 import netlify from '/assets/svg/technologies/netlify.svg';
 import node from '/assets/svg/technologies/node.svg';
 import php from '/assets/svg/technologies/php.svg';
@@ -25,6 +26,7 @@ export const Technologies = () => {
         {src: html, alt: 'HTML'},
         {src: java, alt: 'Java'},
         {src: javascript, alt: 'JavaScript'},
+        {src: mysql, alt: 'MySQL'},
         {src: netlify, alt: 'Netlify'},
         {src: node, alt: 'Node JS'},
         {src: php, alt: 'PHP'},
