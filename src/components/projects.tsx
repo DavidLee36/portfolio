@@ -64,7 +64,12 @@ export const Projects = () => {
                             </div>
                         </h2>
                         <h3 className="project-desc">
-                            {project.desc}
+                        {project.desc.split('\n').map((text, index) => (
+                                <span key={index}>
+                                    {text}
+                                    <br />
+                                </span>
+                            ))}
                         </h3>
                         <div className="project-technologies">
                             {project.techList.map((tech, index) => (

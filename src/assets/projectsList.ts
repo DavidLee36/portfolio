@@ -50,6 +50,17 @@ const projectList = [
         techList: ['javascript', 'html', 'css']
     },
     {
+        title: 'Valorant Quiz Website',
+        img: {
+            src: '/assets/images/valo-quiz.png',
+            alt: 'Valo Quiz'
+        },
+        github: 'https://github.com/DavidLee36/valo-quiz',
+        link: 'https://valo-quiz.com',
+        desc: 'Developed a web-based quiz platform focused on testing users\' knowledge of the game Valorant. This project aimed to expand my skills in PHP and MySQL by creating a fully functional, database-driven application.\nFeatures:\n - User Authentication: Basic sign-up and login system to track quiz progress.\n- Admin Functionality: Full CRUD operations for managing questions and categories.\n- Dynamic Quiz Content: Questions span multiple categories like agents, maps, and abilities.\n- User Progress Tracking: Users can track correct answers, and identify completed categories.\nThis project is hosted on InfinityFree and showcases my ability to handle both front-end and back-end development, including user data management and secure deployment.',
+        techList: ['php', 'mysql', 'html', 'css']
+    },
+    {
         title: 'Robotic Bartender',
         img: {
             src: '/assets/images/bartender.png',
