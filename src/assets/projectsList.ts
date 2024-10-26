@@ -68,7 +68,7 @@ const projectList = [
         },
         github: 'https://github.com/DavidLee36/DrinkMixer',
         link: 'https://davidbartender.com/',
-        desc: 'I built a Robot Drink Mixer that automates making custom drinks through a Node.js web server running on a Raspberry Pi. Users can visit the website at sleepyjoesaloon.com to place drink orders, which are sent to the Raspberry Pi acting as the middleman between the website and an Arduino Uno R4. The Raspberry Pi communicates with the Arduino to control relays and pumps, dispensing precise amounts of liquid from various bottles into a cup. I also developed a custom API that displays the current drink options available to users. This project showcases my skills in IoT, web development, and hardware integration, creating a seamless and interactive experience from the web interface to the physical drink mixer.',
+        desc: 'I built a Robot Drink Mixer that automates making custom drinks through a Node.js web server running on a Raspberry Pi. Users can visit the website at davidbartender.com to place drink orders, which are sent to the Raspberry Pi acting as the middleman between the website and an Arduino Uno R4. The Raspberry Pi communicates with the Arduino to control relays and pumps, dispensing precise amounts of liquid from various bottles into a cup. I also developed a custom API that displays the current drink options available to users. This project showcases my skills in IoT, web development, and hardware integration, creating a seamless and interactive experience from the web interface to the physical drink mixer.',
         techList: ['react', 'javascript', 'node', 'arduino', 'raspberry']
     },
     {
